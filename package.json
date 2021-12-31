@@ -27,8 +27,8 @@
     "web3": "^1.6.1"
   },
   "scripts": {
-    "start": "next start",
-    "build": "next build",
+    "start": "node server.js",
+    "build": "node server.js",
     "test": "mocha",
     "eject": "react-scripts eject",
     "dev": "node server.js",
