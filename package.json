@@ -30,7 +30,7 @@
     "test": "mocha",
     "eject": "react-scripts eject",
     "dev": "node server.js",
-    "heroku-postbuild": "node server.js"
+    "heroku-postbuild": "next start"
   },
   "eslintConfig": {
     "extends": [

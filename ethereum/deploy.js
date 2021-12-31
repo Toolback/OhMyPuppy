@@ -4,8 +4,8 @@ require("dotenv").config();
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
-const privKeys = process.env.ACCOUNT_PRIVKEYS || vaverkey;
-const alchemyUrl = process.env.RINKEBY_ENDPOINT || vaverapi;
+const privKeys = process.env.ACCOUNT_PRIVKEYS || varverkey;
+const alchemyUrl = process.env.RINKEBY_ENDPOINT || varverapi;
 
 const provider = new HDWalletProvider(privKeys, alchemyUrl);
 
